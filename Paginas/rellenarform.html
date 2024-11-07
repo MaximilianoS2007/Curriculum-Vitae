@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Currículum Vitae Editable</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Currículum Vitae</h1>
+        </header>
+
+        <form id="cv-form">
+            <section class="personal-info">
+                <h2>Información Personal</h2>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Nombre completo">
+
+                <label for="gender">Sexo:</label>
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="country">País:</label>
+                <input type="text" id="country" name="country" placeholder="País">
+
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" placeholder="Edad">
+
+                <label for="dob">Fecha de Cumpleaños:</label>
+                <input type="date" id="dob" name="dob">
+            </section>
+
+            <section class="experience">
+                <h2>Experiencia Laboral</h2>
+                <label for="job-title">Puesto:</label>
+                <input type="text" id="job-title" name="job-title" placeholder="Puesto de trabajo">
+
+                <label for="company">Empresa:</label>
+                <input type="text" id="company" name="company" placeholder="Nombre de la empresa">
+
+                <label for="years">Años:</label>
+                <input type="text" id="years" name="years" placeholder="Años de experiencia">
+
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" placeholder="Descripción de responsabilidades"></textarea>
+            </section>
+
+            <section class="projects">
+                <h2>Proyectos</h2>
+                <textarea id="projects" name="projects" placeholder="Lista de proyectos"></textarea>
+            </section>
+
+            <section class="skills">
+                <h2>Habilidades</h2>
+                <textarea id="skills" name="skills" placeholder="Lista de habilidades"></textarea>
+            </section>
+            <section class="botones">
+                <button type="submit">Guardar CV</button>
+                <button type="reset">Borrar Datos</button>
+                <a href="../index.html" class="crear">
+                    Ejemplo
+                </a>
+            </section>
+        </form>
+
+        <footer>
+            <p>&copy; 2024 Maximiliano Joaquín Sanchez Deoseffe. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>

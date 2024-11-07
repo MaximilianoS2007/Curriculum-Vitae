@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: #333;
+    line-height: 1.6;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 30%;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #ff6038, #ff9442);
+    transform: scale(1.05);
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration:underline transparent;
+    transition: 1s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    text-decoration:underline solid black;
+}
+
+a.crear {
+    display: inline-block;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+a.crear:hover {
+    background: linear-gradient(to bottom, #ff6038, #ff9442);
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}

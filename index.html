@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Currículum Vitae Editable</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Currículum Vitae</h1>
+        </header>
+
+        <form id="cv-form">
+            <section class="personal-info">
+                <h2>Información Personal</h2>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" value="Maximiliano Joaquín Sanchez Deoseffe" >
+
+                <label for="gender">Sexo:</label>
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="masculino" selected>Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="country">País:</label>
+                <input type="text" id="country" name="country" value="Argentina">
+
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" value="17">
+
+                <label for="dob">Fecha de Cumpleaños:</label>
+                <input type="date" id="dob" name="dob" value="2007-06-30">
+            </section>
+
+            <section class="experience">
+                <h2>Experiencia Laboral</h2>
+                <label for="job-title">Puesto:</label>
+                <input type="text" id="job-title" name="job-title" value="Programador con experiencia en ideas innovadoras y soluciones creativas.">
+            
+                <label for="company">Empresa:</label>
+                <input type="text" id="company" name="company" value="Metalurgia Víctor y Asociados, Alto Center, El Gallego, Agencia de Viajes Vía Bariloche">
+            
+                <label for="years">Años:</label>
+                <input type="text" id="years" name="years" value="2 años de experiencia laboral y en desarrollo de proyectos tecnológicos.">
+            
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description">En mi experiencia, he tenido la oportunidad de explorar la programación y el desarrollo de proyectos propios, con ideas innovadoras en mente para futuros proyectos de tecnología. También he trabajado en diferentes sectores, lo que me ha permitido adquirir una perspectiva amplia y habilidades transferibles en programación y resolución de problemas.</textarea>
+            </section>
+            
+            <section class="projects">
+                <h2>Proyectos</h2>
+                <textarea id="projects" name="projects">Desarrollo de aplicaciones y proyectos personales en programación, enfocados en mejorar procesos y crear soluciones prácticas. Actualmente, tengo varias ideas en mente que abarcan tanto software personalizado como aplicaciones innovadoras para diferentes sectores.</textarea>
+            </section>
+            
+
+            <section class="skills">
+                <h2>Habilidades</h2>
+                <textarea id="skills" name="skills" placeholder="Lista de habilidades">Mis habilidades son: aprendo rápido, escucho atentamente, soy perfeccionista, detallista, intento dar lo mejor de mí aunque cueste, y si no sé algo, no descansaré hasta aprenderlo. También soy puntual :).
+                </textarea>
+                    
+            </section>
+            <section class="botones">
+                <a href="Paginas/rellenarform.html" class="crear">
+                    Crear al tuyo
+                </a>
+            </section>
+        </form>
+
+        <footer>
+            <p>&copy; 2024 Maximiliano Joaquín Sanchez Deoseffe. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
